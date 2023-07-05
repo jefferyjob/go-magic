@@ -11,7 +11,7 @@
 English | [简体中文](README.cn.md)
 
 <div style="text-align: center;">
-<img src="./docs/logo.gif" alt="Go Magic - A framework that is ready to use out of the box" style="max-height: 150px;"/>
+<img src="./docs/logo.gif" alt="Go Magic - A framework that is ready to use out of the box" height="150"/>
 </div>
 
 ## Introduction
