@@ -10,6 +10,10 @@
 
 [English](README.md) | 简体中文
 
+<p style="text-align: center;">
+<img src="./docs/logo.gif" alt="Go Magic - A framework that is ready to use out of the box" height="150"/>
+</p>
+
 ## 介绍
 go-magic 是一个开箱即用的框架，旨在为开发者提供方便快捷的开发体验。 旨在简化开发流程，让开发者不再需要手动引入各种第三方包，从而加快开发速度，降低开发复杂度。
 

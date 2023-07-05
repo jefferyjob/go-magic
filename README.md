@@ -10,6 +10,10 @@
 
 English | [简体中文](README.cn.md)
 
+<p style="text-align: center;">
+<img src="./docs/logo.gif" alt="Go Magic - A framework that is ready to use out of the box" height="150"/>
+</p>
+
 ## Introduction
 go-magic is an out-of-the-box framework designed to provide developers with a convenient and fast development experience. It aims to simplify the development process, so that developers no longer need to manually introduce various third-party packages, thereby speeding up development and reducing development complexity.
 
