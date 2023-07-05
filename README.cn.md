@@ -10,8 +10,8 @@
 
 [English](README.md) | 简体中文
 
-<div style="text-align: center;">
-<img src="./docs/logo.gif" alt="Go Magic - A framework that is ready to use out of the box" style="max-height: 150px;"/>
+<div align="center">
+<img src="./docs/logo.gif" alt="Go Magic - A framework that is ready to use out of the box" height="150"/>
 </div>
 
 ## 介绍
