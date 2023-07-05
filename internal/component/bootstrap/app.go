@@ -3,7 +3,8 @@ package bootstrap
 import "context"
 
 type App struct {
-	ctx context.Context
+	ctx    context.Context
+	AppEnv string
 }
 
 func NewApp(ctx context.Context) *App {
