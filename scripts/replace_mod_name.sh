@@ -25,10 +25,13 @@ find "$directory" -type f -name "*.go" | while read -r file; do
     sed -i "s|$old_package|$new_package|g" "$file"
 done
 
+echo "后缀为 .go 的文件中, 包引入路径已替换完成."
+echo "注意：go.mod 和 go.sum 中包路径和名称需要自己手动完成替换. "
+
 # 递归遍历目录下的所有Go文件和.mod文件
 #find "$directory" \( -name "*.go" -o -name "*.mod" \) | while read -r file; do
 #    # 替换文件中的包地址
 #    sed -i "s|$old_package|$new_package|g" "$file"
 #done
 
-echo "替换完成！"
+
