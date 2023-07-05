@@ -25,3 +25,7 @@ go.work
 .project
 .DS_Store
 .vscode
+
+# env
+configs/app.yaml
+configs/app.local.yaml

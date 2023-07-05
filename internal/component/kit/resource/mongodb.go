@@ -1,5 +1,7 @@
 package resource
 
-func InitMongodb() {
+import "context"
+
+func InitMongodb(ctx context.Context) {
 
 }
