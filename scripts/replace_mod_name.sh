@@ -4,13 +4,11 @@
 old_package="github.com/jefferyjob/go-magic"
 
 # 提示用户输入新的包地址
-echo "请输入新的包地址："
-read -r new_package
+read -rp "请输入新的包地址：" new_package
 
 # 显示用户输入的新包地址并要求确认
 echo "新的包地址为：$new_package"
-echo "确认要将旧的包地址 $old_package 替换为新的包地址 $new_package 吗？(y/n)"
-read -r confirm
+read -rp "确认要将旧的包地址 $old_package 替换为新的包地址 $new_package 吗？(y/n)：" confirm
 
 # 判断用户的确认选项
 if [ "$confirm" != "y" ]; then
