@@ -1,6 +1,6 @@
 module github.com/jefferyjob/go-magic
 
-go 1.18
+go 1.20
 
 require gorm.io/gorm v1.25.2
 

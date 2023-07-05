@@ -2,7 +2,7 @@
 
 [![Go](https://img.shields.io/badge/Go->=1.18-green)](https://go.dev)
 [![Release](https://img.shields.io/github/v/release/jefferyjob/go-magic.svg)](https://github.com/jefferyjob/go-magic/releases)
-[![Action](https://github.com/jefferyjob/go-magic/workflows/Go/badge.svg?branch=main)](https://github.com/jefferyjob/go-magic/actions)
+[![Action](https://github.com/jefferyjob/go-magic/workflows/CodeQL/badge.svg?branch=main)](https://github.com/jefferyjob/go-magic/actions)
 [![Report](https://goreportcard.com/badge/github.com/jefferyjob/go-magic)](https://goreportcard.com/report/github.com/jefferyjob/go-magic)
 [![Coverage](https://codecov.io/gh/jefferyjob/go-magic/branch/main/graph/badge.svg)](https://codecov.io/gh/jefferyjob/go-magic)
 [![Doc](https://img.shields.io/badge/go.dev-reference-brightgreen?logo=go&logoColor=white&style=flat)](https://pkg.go.dev/github.com/jefferyjob/go-magic)
