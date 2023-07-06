@@ -23,6 +23,11 @@ jobs:
       - name: Verify GO
         run: go env
 
+      - name: Set up Go environment
+        run: |
+          export GOPATH=${{ runner.workspace }}/go
+          echo $GOPATH
+
       #      - name: Get dependencies
 #        run: |
 #          go get -v -t -d ./...
