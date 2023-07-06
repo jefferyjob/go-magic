@@ -20,7 +20,10 @@ jobs:
           cache: true
         id: go
 
-#      - name: Get dependencies
+      - name: Verify GO
+        run: go env
+
+      #      - name: Get dependencies
 #        run: |
 #          go get -v -t -d ./...
 
