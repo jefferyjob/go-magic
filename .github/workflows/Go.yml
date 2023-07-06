@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  linux-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -20,8 +20,10 @@ jobs:
           cache: true
         id: go
 
-      - name: Verify GO
-        run: go env
+      - name: GO Env
+        run: |
+          go version
+          go env
 
       - name: Set up Go environment
         run: |
