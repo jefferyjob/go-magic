@@ -1,4 +1,4 @@
-package config
+package conf
 
 // Configs 配置文件映射文件
 // 该文件是和 configs/app.xxx.yaml 的配置映射文件
@@ -28,7 +28,7 @@ type RedisConfig struct {
 	DB       int    `yaml:"DB"`
 }
 
-type Configs struct {
+type Config struct {
 	App      AppConfig      `yaml:"APP"`
 	Database DatabaseConfig `yaml:"Database"`
 }
