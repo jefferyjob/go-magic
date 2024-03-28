@@ -1,8 +1,8 @@
-package bootstrap
+package core
 
 import (
 	"context"
-	"github.com/jefferyjob/go-magic/internal/component/kit/conf"
+	"github.com/jefferyjob/go-magic/core/kit/conf"
 )
 
 type App struct {

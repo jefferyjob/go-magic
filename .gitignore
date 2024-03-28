@@ -30,5 +30,4 @@ go.work
 
 # Env
 configs/app.yaml
-configs/app.dev.yaml
 configs/app.local.yaml

@@ -1,0 +1,33 @@
+App:
+  Name: go-magic
+  Env: test
+  Debug: true
+  Timezone: Asia/Shanghai
+
+Http:
+  Url: https://github.com/jefferyjob/go-magic
+  Host: 127.0.0.1
+  Port: 8866
+  Timeout: 3
+
+Database:
+  Mysql:
+    - Name: default
+      DSN: username:passwork@tcp(127.0.0.1:3306)/your_db?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+  Redis:
+    - Name: default
+      Addr: 127.0.0.1:6379
+      Password:
+      DB: 0
+
+Prometheus:
+  Host: 0.0.0.0
+  Port: 3006
+  Path: /metrics
+
+# 链路追踪
+Telemetry:
+  Name: magic-rpc
+  Endpoint: http://jaeger:14268/api/traces
+  Sampler: 1.0
+  Batcher: jaeger

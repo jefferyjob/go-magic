@@ -5,8 +5,8 @@ import (
 	"flag"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/jefferyjob/go-magic/internal/component/bootstrap"
-	"github.com/jefferyjob/go-magic/internal/component/kit/conf"
+	"github.com/jefferyjob/go-magic/core"
+	"github.com/jefferyjob/go-magic/core/kit/conf"
 	"log"
 	"net/http"
 )
@@ -32,7 +32,7 @@ func main() {
 	config := conf.InitViper(ctx, *configFile)
 	//fmt.Println(config)
 
-	app := bootstrap.NewApp(ctx, config)
+	app := core.NewApp(ctx, config)
 	fmt.Println(app.AppEnv, app.Config.Database)
 
 	r := gin.Default()
